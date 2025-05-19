@@ -2,10 +2,10 @@
 "use client"
 
 import { useState } from "react"
-import { Card, CardContent } from "../ui/card"
+import { Card, CardContent } from "../ui/Card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs"
-import { Input } from "../ui/input"
-import { Button } from "../ui/button"
+import { Input } from "../ui/Input"
+import { Button } from "../ui/Button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../ui/dropdown-menu"
 import { Avatar, AvatarFallback } from "../ui/avatar"
 import { Badge } from "../ui/badge"
