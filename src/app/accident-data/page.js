@@ -1,8 +1,8 @@
 "use client"
-import AccidentDataPage from '@/Components/Accident_data/Accedent_data'
-import { Navbar } from '@/Components/Navbar/Navbar'
-import Sidebar from '@/Components/SideBar/Sidebar'
-import { TooltipProvider } from '@/Components/ui/tooltip'
+import AccidentDataPage from '../../Components/Accident_data/Accedent_data'
+import { Navbar } from '../../Components/Navbar/Navbar'
+import Sidebar from '../../Components/SideBar/Sidebar'
+import { TooltipProvider } from '../../Components/ui/tooltip'
 import React, { useState } from 'react'
 
 const page = () => {

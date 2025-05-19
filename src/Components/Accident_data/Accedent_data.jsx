@@ -13,7 +13,6 @@ import {
     ChevronUp
 } from 'lucide-react';
 import { csv } from 'd3-fetch';
-import {Navbar} from "../../Components/Navbar/Navbar"
 
 const AccidentDataPage = () => {
     const [data, setData] = useState([]);

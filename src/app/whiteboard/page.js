@@ -1,8 +1,8 @@
 "use client"
-import { Navbar } from '@/Components/Navbar/Navbar'
-import Sidebar from '@/Components/SideBar/Sidebar'
-import { TooltipProvider } from '@/Components/ui/tooltip'
-import WhiteboardPage from '@/Components/WhiteBoard/WhiteBoard'
+import { Navbar } from '../../Components/Navbar/Navbar'
+import Sidebar from '../../Components/SideBar/Sidebar'
+import { TooltipProvider } from '../../Components/ui/tooltip'
+import WhiteboardPage from '../../Components/WhiteBoard/WhiteBoard'
 import React, { useState } from 'react'
 
 const page = () => {

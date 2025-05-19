@@ -1,9 +1,9 @@
 "use client"
 
-import { AllSurveys } from '@/Components/AllSurveys/AllSurveys'
-import { Navbar } from '@/Components/Navbar/Navbar'
-import Sidebar from '@/Components/SideBar/Sidebar'
-import { TooltipProvider } from '@/Components/ui/tooltip'
+import { AllSurveys } from '../../Components/AllSurveys/AllSurveys'
+import { Navbar } from '../../Components/Navbar/Navbar'
+import Sidebar from '../../Components/SideBar/Sidebar'
+import { TooltipProvider } from '../../Components/ui/tooltip'
 import React, { useState } from 'react'
 
 const page = () => {
