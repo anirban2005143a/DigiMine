@@ -4,8 +4,6 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "./tooltip";
 import { Slot } from "@radix-ui/react-slot";
 import { cn } from "../../lib/utils";
 import { useSidebar } from "../../hooks/useSidebar";
-import { Button } from "./Button";
-import { PanelLeft } from "lucide-react";
 
 export const Sidebar = React.forwardRef(
     (
@@ -220,27 +218,3 @@ export const SidebarMenuItem = React.forwardRef(
 SidebarMenuItem.displayName = "SidebarMenuItem";
 
 
-export const SidebarTrigger = React.forwardRef(
-  ({ className, onClick, ...props }, ref) => {
-    const { toggleSidebar } = useSidebar();
-
-    return (
-      <Button
-        ref={ref}
-        data-sidebar="trigger"
-        variant="ghost"
-        size="icon"
-        className={cn("h-7 w-7", className)}
-        onClick={(event) => {
-          onClick?.(event);
-          toggleSidebar();
-        }}
-        {...props}
-      >
-        <PanelLeft />
-        <span className="sr-only">Toggle Sidebar</span>
-      </Button>
-    );
-  }
-);
-SidebarTrigger.displayName = "SidebarTrigger";

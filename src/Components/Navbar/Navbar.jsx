@@ -1,25 +1,17 @@
 "use client";
 
-import { Bell, HelpCircle, Search } from "lucide-react";
-import { Button } from "../../Components/ui/Button";
-import { Input } from "../../Components/ui/Input";
-import { SidebarTrigger } from "../../Components/ui/Sidebar";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "../../Components/ui/dropdown-menu";
-import { Avatar, AvatarFallback } from "../../Components/ui/avatar";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
-export const Navbar = () => {
+export const Navbar = ({ isSideMenuOpen , toggleSideNavbar }) => {
   return (
     <header className="border-b bg-white">
       <div className="flex h-16 items-center px-4">
-        <SidebarTrigger className="mr-2" />
-        <div className="flex items-center">
+        <button
+        onClick={toggleSideNavbar}
+        className=" p-2 rounded-full bg-gray-400/20 hover:bg-gray-700/20 cursor-pointer me-5">
+          {!isSideMenuOpen ? <ArrowRight className="w-5 h-5"/> : <ArrowLeft className="w-5 h-5"/>}
+        </button>
+        <div className="">
           <h2 className="text-xl font-bold tracking-tight">AIMSURE</h2>
         </div>
 
