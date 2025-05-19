@@ -29,29 +29,14 @@ export default function Sidebar({ isSideMenuOpen }) {
       href: "/whiteboard",
     },
     {
-      title: "Saved Inspections",
+      title: "All Surveys",
       icon: Save,
-      href: "/saved-inspections",
-    },
-    {
-      title: "Dashboard",
-      icon: BarChart2,
-      href: "/dashboard",
+      href: "/AllSurveys",
     },
     {
       title: "Accident Data",
       icon: ClipboardList,
       href: "/accident-data",
-    },
-    {
-      title: "Safety Protocols",
-      icon: Shield,
-      href: "/safety-protocols",
-    },
-    {
-      title: "Team",
-      icon: Users,
-      href: "/team",
     },
   ];
   

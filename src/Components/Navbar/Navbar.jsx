@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export const Navbar = ({ isSideMenuOpen , toggleSideNavbar }) => {
   return (
-    <header className=" bg-gradient-to-r  from-gray-200/80 to-gray-200/40 py-3">
+    <header className=" bg-gray-200/40 py-3">
       <div className="flex items-center px-4">
         <button
         onClick={toggleSideNavbar}
