@@ -57,7 +57,7 @@ export default function Sidebar({ isSideMenuOpen }) {
   
 
   return (
-    <div id="side-navbar" className={`${isSideMenuOpen ? " md:w-[190px] lg:w-[220px] xl:w-[250px] w-full " : "w-[46px] " } transition-[width] duration-150 bg-gradient-to-l from-gray-400/10 to-transparent ease-in-out h-screen overflow-x-hidden`}>
+    <div id="side-navbar" className={`${isSideMenuOpen ? " md:w-[190px] lg:w-[220px] xl:w-[250px] w-full " : "w-[42px] " } transition-[width]  bg-gradient-to-l from-gray-400/10 to-transparent ease-in-out h-screen overflow-x-hidden`}>
       <SidebarComponent>
         <SidebarHeader className={`flex items-center justify-center py-4 mt-1 delay-75 transition-opacity ${isSideMenuOpen ? "" : "opacity-0"} `}>
           <div className="flex items-center space-x-2">
